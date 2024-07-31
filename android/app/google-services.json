@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "95359829503",
+    "project_id": "rental-marina",
+    "storage_bucket": "rental-marina.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:95359829503:android:358ea449614c9f7f2fd3ca",
+        "android_client_info": {
+          "package_name": "com.example.rental_marina"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCr5V2PX9gxZEaBK0mMaT3oUe9NvN-6BOI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
