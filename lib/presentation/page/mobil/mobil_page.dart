@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:rental_marina/presentation/widget/car_list.dart';
-import 'package:rental_marina/presentation/widget/add_car_page.dart';
+import 'package:rental_marina/presentation/page/mobil/car_list.dart';
+import 'package:rental_marina/presentation/page/mobil/add_car_page.dart';
 
 class MobilPage extends StatelessWidget {
   MobilPage({super.key});

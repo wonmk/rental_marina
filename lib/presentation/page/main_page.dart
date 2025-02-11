@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:rental_marina/presentation/page/pembukuan_page.dart';
-import 'mobil_page.dart';
-
+import 'package:rental_marina/presentation/page/user/user_page.dart';
+// import 'package:rental_marina/presentation/page/pembukuan_page.dart';
+import 'mobil/mobil_page.dart';
+import 'pembukuan/laporan_page.dart';
 
 class MainPage extends StatefulWidget {
   const MainPage({super.key});
@@ -16,6 +17,7 @@ class _MainPageState extends State<MainPage> {
   static final List<Widget> _widgetOptions = <Widget>[
     MobilPage(),
     PembukuanPage(),
+    UserPage(),
   ];
 
   void _onItemTapped(int index) {
@@ -33,12 +35,16 @@ class _MainPageState extends State<MainPage> {
       bottomNavigationBar: BottomNavigationBar(
         items: const <BottomNavigationBarItem>[
           BottomNavigationBarItem(
-            icon: Icon(Icons.inventory),
+            icon: Icon(Icons.car_rental),
             label: 'Mobil',
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.book),
             label: 'Pembukuan',
+          ),
+          BottomNavigationBarItem(
+            icon: Icon(Icons.person),
+            label: 'User',
           ),
         ],
         currentIndex: _selectedIndex,
