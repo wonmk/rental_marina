@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:rental_marina/presentation/widget/transaction_list.dart';
+import 'package:rental_marina/presentation/page/pembukuan/transaction_list.dart';
 
 class PembukuanPage extends StatelessWidget {
   final List<Transaction> transactions = [

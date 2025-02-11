@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:rental_marina/presentation/page/home_page.dart';
+import 'package:rental_marina/presentation/page/main_page.dart';
+import 'package:rental_marina/presentation/page/login_page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -11,7 +12,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Aplikasi Pembukuan',
+      title: 'Pembukuan Rental Mobil Marina',
       theme: ThemeData(primarySwatch: Colors.blue),
       home: MainPage(),
     );
